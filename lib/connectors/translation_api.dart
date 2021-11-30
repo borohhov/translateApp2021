@@ -11,9 +11,11 @@ class TranslationApi {
     requestBody["src"] = translation.originalLanguage;
     requestBody["tgt"] = translation.targetLanguage;
     requestBody["domain"] = "fml";
+    String json = jsonEncode(requestBody);
     http.Response response = await http.post(
         Uri.https(endpointServer, endpointParam),
-        body: requestBody);
+        headers: {"Content-Type": "application/json"},
+        body: json);
     Map<String, dynamic> responseMap = jsonDecode(response.body);
     return responseMap["result"];
   }

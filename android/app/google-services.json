@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "286594855637",
+    "project_id": "mainor-test",
+    "storage_bucket": "mainor-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:286594855637:android:6c682d226a9e12bf7a685c",
+        "android_client_info": {
+          "package_name": "com.mainor.translation.translation_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "286594855637-skcg6i25b1bfol9so32b2bgg0c4ppnc2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHpSrBziwHlEAZOIyYO9DX_SkOtsSrl6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "286594855637-skcg6i25b1bfol9so32b2bgg0c4ppnc2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
